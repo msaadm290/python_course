@@ -3,6 +3,8 @@ y = "John"
 print(x)
 print(y)
 
+print("saad")
+
 #variable types
 
 print(type(x))
