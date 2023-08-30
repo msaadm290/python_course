@@ -59,6 +59,9 @@ multiplication(10,10)
 division(10,10)
 
 math("SUB",10,10)
+math("ADD",10,20)
+math("MUL",20,20)
+math("DIVID",10,30)
 
 
 company_name = "lafiesta"
