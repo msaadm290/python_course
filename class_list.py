@@ -45,3 +45,35 @@ print(list2)
 print(list3)
 
 
+#A list can contain different data types:
+#A list with strings, integers and boolean values:
+
+list1 = ["abc" , 34, True, 40, "male", 'female']
+
+print(list1)
+
+# type()
+# What is the data type of a list?
+
+mylist = ['apple', 'banana', 'cherry']
+print(type(mylist))
+
+#The list() Constructor
+#Using the list() 
+#constructor to make a List:
+#it usually used when initialize any software
+
+thislist = list(('apple', 'banana', 'cherry', )) #note the double round-brackets
+print(thislist)
+
+#Access Items
+#Print the second item of the list:
+
+thislist = ['apple', 'banana', 'cherry']
+print(thislist[2])
+
+
+
+
+
+
