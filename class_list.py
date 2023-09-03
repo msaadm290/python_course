@@ -210,6 +210,86 @@ thislist.extend(tropical)
 print(thislist)
 
 
+#Add Any Iterable
+#The extend() method does not have to append 
+# lists, you can add any iterable object 
+# (tuples, sets, dictionaries etc.).
+
+#Add elements of a tuple to a list:
+
+thislist = ['monday', 'thuesday', 'wednesday']
+thistuple = ('thursday', 'friday')
+thislist.extend(thistuple)
+print(thislist)
+
+#Remove Specified Item
+#The remove() method 
+# removes the specified item.
+
+#Remove "tuesday":
+
+thislist = ['monday', 'tuesday', 'wednesday']
+thislist.remove('tuesday')
+print(thislist)
+
+#If there are more than one item with the specified value, the 
+# remove() method removes the first occurance:
+
+#Remove the first occurance of "monday":
+
+thislist = ['tuesday', 'wednesday', 'monday', 'thursday', 'friday', 'monday']
+thislist.remove('monday')
+print(thislist)
+
+#Remove Specified Index
+#The pop() method removes the 
+# specified index.
+#Remove the second item:
+
+thislist = ['january', 'february', 'march', 'april']
+thislist.pop(1)
+print(thislist)
+
+#If you do not specify the index, t
+#he pop() method removes the last item.
+
+#Remove the last item:
+
+thislist = ['january', 'february', 'march']
+thislist.pop()
+print(thislist)
+
+#The del keyword 
+#also removes the specified index:
+#Remove the first item:
+
+thislist = ['monday', 'tuesday', 'wednesday']
+del thislist[0]
+print(thislist)
+
+#The del keyword can also 
+#delete the list completely.
+
+#Delete the entire list:
+thislist = ['monday', 'tuesday', 'wednesday']
+del thislist
+
+#Clear the List
+#The clear() method empties the list.
+#The list still remains, 
+# but it has no content.
+
+#clear the list content
+
+thislist = ['january', 'february', 'march']
+thislist.clear()
+print(thislist)
+
+
+
+
+
+
 
 
 
