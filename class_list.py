@@ -1,3 +1,13 @@
+#important points for differntiate list
+
+# 1.list is used to store multiple data
+#2. list take dublicate values.
+#3. List items are ordered, changeable, 
+#and allow duplicate values.
+#4  Lists are created using 
+#square brackets:
+
+
 #Methode how to use the list and its types
 
 #mylist = ["apple" , "banana" , "cherry"]
@@ -284,6 +294,31 @@ del thislist
 thislist = ['january', 'february', 'march']
 thislist.clear()
 print(thislist)
+
+#Loop Through a List
+
+#You can loop through the 
+# list items by using a for loop:
+
+#Print all items in the list, one by one:
+
+thislist = ['monday', 'thuesday', 'wednesday']
+for x in thislist:
+   print(x)
+
+#Loop Through the Index Numbers
+#You can also loop through the list items 
+#by referring to their index number.
+
+#Use the range() and len() functions to 
+# create a suitable iterable.
+
+thislist = ['monday', 'thuesday', 'wednesday']
+for i in range(len(thislist)):
+   print(thislist[i])
+
+
+
 
 
 
