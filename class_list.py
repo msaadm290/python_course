@@ -359,9 +359,52 @@ thislist = ['monday', 'tuesday', 'wednesday']
 
 #Without list comprehension you will have to write a for statement with a conditional test inside:
 
+#List Comprehension
+
+#List comprehension offers a shorter syntax 
+# when you want to create a new list based on the 
+# values of an existing list.
+
+#Example:
+
+#Based on a list of fruits, you want a new list, containing only the fruits with 
+# the letter "a" in the name.
+
+#Without list comprehension you 
+# will have to 
+# write a for statement with 
+# a conditional test inside:
 
 
+fruits = ['apple', 'banana', 'cherry', 'kiwi', 'mango']
+newlist = []
 
+for x in fruits:
+   if 'a' in x:
+      newlist.append(x)
+
+print(newlist)
+
+#agar x index per jo fruit hai wo lay kar ao tu "if" ke condition 
+# lagao or is ko bolo uper wale list mai jahan "a " hai un fruits 
+# k name new list mai lao or for loop jab tak chalay ga jab tak us list ke range 
+# finish ni ho jate agar 1000 items tu 1000 times.
+
+#Sort List Alphanumerically
+#List objects have a sort() method that will sort the 
+# list alphanumerically, ascending, by default:
+
+#Sort the list alphabetically:
+
+thislist = ['monday', 'tuesday', 'wednesday', 'saturday', 'sunday']
+thislist.sort()
+print(thislist)
+
+#Sort the list numerically:
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
 
 
 
