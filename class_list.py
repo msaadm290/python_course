@@ -2,7 +2,7 @@
 
 # 1.list is used to store multiple data
 #2. list take dublicate values.
-#3. List items are ordered, changeable, 
+#3. List items are ordered,(in index and index start with 0) changeable, 
 #and allow duplicate values.
 #4  Lists are created using 
 #square brackets:

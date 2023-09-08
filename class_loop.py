@@ -5,30 +5,34 @@
 # always use "in" keywaord.
 # 4. in for loop we use "range" function to find out sequence of numbers.
 # 5.to use block of codes repeatedly we use "for loop".
- 
+# we use varible and variable always take 1 value at a time thats why it takes  
 
 employees = ["saad","raheel","insha","Ali","zaid"]
 
 employeeName = "Raheel wali"
 
-# for emp in employees:
-#     print("Employee Name is:",emp)
 
 
+for emp in employees:
+     print("Employee Name is:",emp)
+
+#if we need to go out from loop in any point we use command break.
+ 
 # for e in employeeName:
 #     print("Employee Name is:",e)
+
 
 
 # Break
 
 for emp in employees:
-    if emp == "saad":
-        break
-    print("Employee Name is: break",emp)
+    if emp == "zaid":
+      break
+      print("Employee Name is:",emp)
 
 
 for emp in employees:
-    print("Employee Name is: break",emp)
+    print("Employee Name is:",emp)
     if emp == "saad":
         break
     
@@ -37,20 +41,30 @@ for emp in employees:
 
 
 for emp in employees:
-    if emp == "raheel":
+    if emp == "saad":
         continue
     print("Continue:",emp)
 
 
-# for emp in employees:
-#     print("Continue:",emp)
-#     if emp == "raheel":
-#         continue
+for emp in employees:
+    print("Continue:",emp)
+    if emp == "raheel":
+     continue
     
 
 # while loop
+# while loop always work on true condition.
+# while value intialize inside the loop.
+# while loop start with keyword "while"
+# in while loop we use break command to stope the loop other wise 
+# true statement will run infinite never stop.
+# in while loop we use continue command it will skip the specific 
+# name remaining will show up 
+
+# employees = ["saad","raheel","insha","Ali","zaid"]
 
 ab = 0
+
 
 while ab < len(employees):
     if(employees[ab] == "raheel" or employees[ab] == "saad"):
