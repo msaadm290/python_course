@@ -7,14 +7,14 @@
 # 5.to use block of codes repeatedly we use "for loop".
 # we use varible and variable always take 1 value at a time thats why it takes  
 
-employees = ["saad","raheel","insha","Ali","zaid"]
+# employees = ["saad","raheel","insha","Ali","zaid"]
 
-employeeName = "Raheel wali"
+# employeeName = "Raheel wali"
 
 
 
-for emp in employees:
-     print("Employee Name is:",emp)
+# for emp in employees:
+#      print("Employee Name is:",emp)
 
 #if we need to go out from loop in any point we use command break.
  
@@ -25,31 +25,31 @@ for emp in employees:
 
 # Break
 
-for emp in employees:
-    if emp == "zaid":
-      break
-      print("Employee Name is:",emp)
+# for emp in employees:
+#     if emp == "zaid":
+#       break
+#       print("Employee Name is:",emp)
 
 
-for emp in employees:
-    print("Employee Name is:",emp)
-    if emp == "saad":
-        break
+# for emp in employees:
+#     print("Employee Name is:",emp)
+#     if emp == "saad":
+#         break
     
 
 # continue
 
 
-for emp in employees:
-    if emp == "saad":
-        continue
-    print("Continue:",emp)
+# for emp in employees:
+#     if emp == "saad":
+#         continue
+#     print("Continue:",emp)
 
 
-for emp in employees:
-    print("Continue:",emp)
-    if emp == "raheel":
-     continue
+# for emp in employees:
+#     print("Continue:",emp)
+#     if emp == "raheel":
+#      continue
     
 
 # while loop
@@ -61,10 +61,9 @@ for emp in employees:
 # in while loop we use continue command it will skip the specific 
 # name remaining will show up 
 
-# employees = ["saad","raheel","insha","Ali","zaid"]
+employees = ["saad","raheel","insha","Ali","zaid"]
 
 ab = 0
-
 
 while ab < len(employees):
     if(employees[ab] == "raheel" or employees[ab] == "saad"):
@@ -75,9 +74,9 @@ while ab < len(employees):
         ab = ab + 1
 
 
-while True:
-    print("Hello While loop")
-    break
+# while True:
+#     print("Hello While loop")
+#     break
 
 
  

@@ -406,10 +406,62 @@ thislist = [100, 50, 65, 82, 23]
 thislist.sort()
 print(thislist)
 
+#Sort Descending
+
+#To sort descending, use the keyword 
+#argument reverse = True:
+
+#sort the list desending:
+
+thislist = ['Muhammad', 'Ali', 'Sharukh', 'Affan', 'Mubasher', 'Usama']
+thislist.sort(reverse = True)
+print(thislist)
+
+#Example
+#Sort the list descending:
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(reverse = True)
+print(thislist)
+
+#Customize Sort Function
+
+#You can also customize your own function 
+#by using the keyword argument key = function.
+
+#The function will return a number that will be used
+#to sort the list (the lowest number first):
+
+#Sort the list based on how close the number is to 50:
+#. to use sort sort by default show in asending order 
+# if you are not mention the parameter or any function.
+# optional parameter is reverse = True or False or 
+# we use with key = myfunc.
+#
 
 
+def myfunc(n):
+   return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
 
 
+# second example it show the first language released in assending order.
+
+programming_language = [
+   {'language': 'python', 'year': 1991},
+   {'language': 'java', 'year': 1995},
+   {'language': 'C++', 'year': 1985},
+   {'language': 'Go', 'year': 2007},
+   ]
+
+def get_year(ele):
+   return ele['year']
 
 
+programming_language.sort(key=get_year)
+
+print("programming",programming_language)
 
