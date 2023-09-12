@@ -5,6 +5,7 @@
 # items after the tuple has been created.
 #4 Tuple are created using 
 #round brackets:
+# tuple always use(",") after one item to indentify its a tuple.
 
 #Tuple
 #Tuples are used to store multiple 
@@ -90,4 +91,74 @@ print(tuple1)
 
 thistuple = tuple(('monday', 'thuesday', 'wednesday')) #note the double round-brackets
 print(thistuple)
+
+#Access Tuple Items
+#You can access tuple items by referring to the 
+#index number, inside square brackets:
+
+#Print the second item in the tuple:
+
+thistuple = ('apple', 'banana', 'cherry')
+print(thistuple[1])
+
+#Negative Indexing
+#Negative indexing means start from the end.
+
+#-1 refers to the last item, -2 refers to the second last item etc.
+
+this_tuple = ('wednesday', 'thuesday', 'friday', 'saturday', 'sunday')
+print(this_tuple[-1])
+
+#Range of Indexes
+#You can specify a range of indexes by specifying where to start and where to end the range.
+#When specifying a range, the return value will be a new tuple with the specified items.
+#Return the third, fourth, and fifth item:
+
+this_tuple = ('monday', 'tuesday', 'friday', 'saturday', 'sunday')
+print(this_tuple[2:5])
+
+#By leaving out the start value, the range will start at the first item:
+
+#This example returns the items from the beginning to, but NOT included, "sunday":
+
+this_tuple = ('monday', 'tuesday', 'friday', 'saturday', 'sunday')
+print(this_tuple[:4])
+
+#By leaving out the end value, the range will go on to the end of the list:
+
+#This example returns the items from "friday" and to the end:
+
+this_tuple = ('monday', 'tuesday', 'friday', 'saturday', 'sunday')
+print(this_tuple[2:])
+
+#Range of Negative Indexes
+#Specify negative indexes if you want to start the search from the end of the tuple:
+#This example returns the items from index -4 (included) to index -1 (excluded)
+
+this_tuple = ('monday', 'tuesday', 'friday', 'saturday', 'sunday')
+print(this_tuple[-4:-1])
+
+#Check if Item Exists
+
+# To determine if a specified item is present in a tuple use the in keyword:
+
+# Example
+# Check if "sunday" is present in the tuple:
+
+this_tuple = ('monday', 'tuesday', 'friday', 'saturday', 'sunday')
+if "saturday" in this_tuple:
+    print("yes, saturday is in the days tuple")
+
+    
+           
+
+
+
+
+
+
+
+
+
+
 
